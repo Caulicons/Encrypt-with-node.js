@@ -17,6 +17,9 @@ const {
   },
 });
 
+console.log(publicKey,
+  privateKey);
+
 const encrypted = (input, publicKey) => {
 
   return publicEncrypt(publicKey, input)
